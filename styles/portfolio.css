@@ -109,6 +109,10 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* About section styles */
 .about {
     padding: 130px;
@@ -139,15 +143,35 @@ main {
     font-weight: 600;
     margin-top: 0;
 }
+
 /* what-I-do-related styles */
-#what-i-do-description{
+#what-i-do-description {
     padding: 30px 150px;
 }
-.skill-container{
+
+.skill-container {
     display: flex;
-    /* justify-content: space-around; ==> it was self code done which is not essential because gap property is used in below in skills class*/
-}
-.skills{
-    padding: 30px;
+    /* justify-content: space-around; ==> it was self code done which is not essential because gap property is used */
     gap: 24px;
+}
+
+.skills {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Resume section styles */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
