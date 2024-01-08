@@ -139,3 +139,15 @@ main {
     font-weight: 600;
     margin-top: 0;
 }
+/* what-I-do-related styles */
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+    /* justify-content: space-around; ==> it was self code done which is not essential because gap property is used in below in skills class*/
+}
+.skills{
+    padding: 30px;
+    gap: 24px;
+}
